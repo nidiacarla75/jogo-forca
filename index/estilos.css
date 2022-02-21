@@ -22,7 +22,7 @@ body {
 }
 
 #imagem {
-  background-image: url("../imagem/forca.png");
+  background-image: url("./imagem/forca.png");
   width: 234px;
   height: 272px;
   background-repeat: no-repeat;

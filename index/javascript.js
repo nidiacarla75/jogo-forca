@@ -300,31 +300,31 @@ function carregaImagemForca() {
   switch (tentativas) {
     case 5:
       document.getElementById("imagem").style.background =
-        "url('../imagem/forca01.png')";
+        "url('./imagem/forca01.png')";
       break;
     case 4:
       document.getElementById("imagem").style.background =
-        "url('../imagem/forca02.png')";
+        "url('./imagem/forca02.png')";
       break;
     case 3:
       document.getElementById("imagem").style.background =
-        "url('../imagem/forca03.png')";
+        "url('./imagem/forca03.png')";
       break;
     case 2:
       document.getElementById("imagem").style.background =
-        "url('../imagem/forca04.png')";
+        "url('./imagem/forca04.png')";
       break;
     case 1:
       document.getElementById("imagem").style.background =
-        "url('../imagem/forca05.png')";
+        "url('./imagem/forca05.png')";
       break;
     case 0:
       document.getElementById("imagem").style.background =
-        "url('../imagem/forca06.png')";
+        "url('./imagem/forca06.png')";
       break;
     default:
       document.getElementById("imagem").style.background =
-        "url('../imagem/forca.png')";
+        "url('./imagem/forca.png')";
       break;
   }
 }
